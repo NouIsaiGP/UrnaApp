@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="183dp">
+
+        <TextView
+            android:id="@+id/txtVotar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Vota"
+            android:textSize="50dp"
+            />
+
+        <TextView
+            android:id="@+id/txtInstruciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Instruciones: Selecciona la opcion por la cual quieras votar"
+            android:textSize="30dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+
+        <Button
+            android:id="@+id/btnA"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="A" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+
+        <Button
+            android:id="@+id/btnB"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="B" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+
+        <Button
+            android:id="@+id/btnC"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="C" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
